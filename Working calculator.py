@@ -24,5 +24,3 @@ while True:
     elif operator == '**':
         ans5 = pow(first, second)
         print(ans5)
-
-#sussy baka lolololol
