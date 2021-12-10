@@ -1,0 +1,7 @@
+# f = open("aarav.txt", "a")
+# a = f.write("Lolzzzzzz\n")
+# print(a)
+# f.close()
+f = open("aarav.txt", "r+")
+print(f.read())
+f.write("thank you")
