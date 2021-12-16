@@ -2,7 +2,7 @@ while True:
     print("Enter first number-")
     first = int(input())
     print("Enter second number-")
-    second = int(input())      
+    second = int(input())  
     print("Enter an operator")
     operator = input()
     if operator == '*':
@@ -20,7 +20,7 @@ while True:
     elif operator == '+':
         ans4 = first + second
         print(ans4)
-        break
+
     elif operator == '**':
         ans5 = pow(first, second)
-        print(ans5)
+        print(ans5);p-
