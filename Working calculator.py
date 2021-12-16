@@ -23,4 +23,4 @@ while True:
 
     elif operator == '**':
         ans5 = pow(first, second)
-        print(ans5);p-
+        print(ans5)
