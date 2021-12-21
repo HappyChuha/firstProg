@@ -1,8 +1,8 @@
 while True:
     print("Enter first number-")
-    first = int(input())
+    first =int(input())
     print("Enter second number-")
-    second = int(input())  
+    second =int(input())
     print("Enter an operator")
     operator = input()
     if operator == '*':
