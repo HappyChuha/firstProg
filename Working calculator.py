@@ -1,4 +1,5 @@
 import math
+print("Welcome to calculator\nEnter ** for power, + for adding, / for division and - for subtracting")
 while True:
     try:
         print("Enter first number-")
