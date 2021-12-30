@@ -1,5 +1,5 @@
 import math as m
-print("Welcome to calculator\nEnter ** for power, + for adding, / for division and - for subtracting and sqrt for finding sqrt")
+print("Welcome to calculator\nEnter ** for power, + for adding, / for division and - for subtracting and sqrt for finding sqrt\nNote- Enter the number of sqrt in first and put anything in second")
 while True:
     try:
         print("Enter first number-")
