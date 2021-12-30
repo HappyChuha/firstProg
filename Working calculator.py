@@ -1,5 +1,5 @@
-import math
-print("Welcome to calculator\nEnter ** for power, + for adding, / for division and - for subtracting")
+import math as m
+print("Welcome to calculator\nEnter ** for power, + for adding, / for division and - for subtracting and sqrt for finding sqrt")
 while True:
     try:
         print("Enter first number-")
@@ -23,5 +23,8 @@ while True:
         elif operator == '**':
             ans5 = pow(first, second)
             print(ans5)
+        elif operator == "sqrt":
+            ans6 = m.sqrt(first)
+            print(ans6)
     except Exception as e:
         print("Wrong input")
