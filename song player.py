@@ -18,3 +18,5 @@ while True:
             timer = mixer.music.get_pos()
             timer = timer/1000
             print(str(timer))
+    else:
+        print("Wrong input")
