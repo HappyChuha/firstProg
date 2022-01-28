@@ -1,7 +1,4 @@
 f = open("aarav.txt", "a")
-for i in range(10):
-    a = f.write("\nlmao")
-for p in range(10):
-    s = f.write("\nlolz")
-print(f"First is {a} and second is {s}")
+for i in range(999990):
+    a = f.write("\ndraw karega DYGGGGIIIIII\n")
 f.close()
