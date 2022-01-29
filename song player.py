@@ -13,7 +13,8 @@ while True:
     elif inp == 'e':
         mixer.music.stop()
         mixer.music.unload()
-        print("bue")
+        for i in range(10):
+            print("bue")
         break
     elif inp == "t":
             timer = mixer.music.get_pos()
