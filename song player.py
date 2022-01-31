@@ -4,7 +4,7 @@ mixer.music.load("lolz.mp3")
 mixer.music.set_volume(0.05)
 mixer.music.play()
 while True:
-    print("Enter p for pause, r for resume, t for checking time elapsed and e for exiting")
+    print("Enter p for pause, r for resume, t for checking time elapsed, s for setting position and e for exiting")
     inp = input("")
     if inp == 'p':
         mixer.music.pause()
