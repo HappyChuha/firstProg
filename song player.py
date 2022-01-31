@@ -1,6 +1,6 @@
 from pygame import mixer
 mixer.init()
-mixer.music.load("lol.mp3")
+mixer.music.load("lolz.mp3")
 mixer.music.set_volume(0.05)
 mixer.music.play()
 while True:
@@ -17,8 +17,10 @@ while True:
             print("bue")
         break
     elif inp == "t":
-            timer = mixer.music.get_pos()
-            timer = timer/1000
-            print(str(timer))
+        timer = mixer.music.get_pos()
+        print(timer/1000)
+    elif inp == 's':
+        setposinp = float(input("Enter time to set to: "))
+        mixer.music.set_pos(setposinp)
     else:
         print("Wrong input")

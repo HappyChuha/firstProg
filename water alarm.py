@@ -13,4 +13,6 @@ while True:
         if inp == "yes":
             f = open("water.txt" , "a")
             a = f.write(f"Drank at {time.asctime()} \n")
+            f.close()
             mixer.music.stop()
+            continue
