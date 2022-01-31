@@ -1,3 +1,4 @@
+import time
 from time import sleep
 from pygame import mixer
 mixer.init()
@@ -10,4 +11,6 @@ while True:
         print("Enter yes if drank water")
         inp = input()
         if inp == "yes":
+            f = open("water.txt" , "a")
+            a = f.write(f"Drank at {time.asctime()} \n")
             mixer.music.stop()
